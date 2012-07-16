@@ -1,0 +1,15 @@
+{
+  "name": "Email from here? for Gmail™",
+  "version": "0.2",
+  "description": "Does a Gmail search for email from the domain of the current page.",  
+  "manifest_version": 2,
+  "browser_action" :
+  {
+    "default_icon" : "icon-19.png",
+    "default_title" : "Has anyone emailed me from this domain?",
+	"default_popup" : "popup.html"
+  },
+  "permissions" : [
+    "tabs"
+  ]
+}
